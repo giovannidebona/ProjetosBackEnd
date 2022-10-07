@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistemarcas.Presentation", "Sistemarcas.Api\Sistemarcas.Presentation.csproj", "{A8832746-5281-49F6-8019-5828A2DDA2E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistemarcas.Domain", "Sistemarcas.Business\Sistemarcas.Domain.csproj", "{CA4E3352-7C8F-44B0-958C-03792932CD4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistemarcas.Infrastructure", "Sistemarcas.Infrastructure\Sistemarcas.Infrastructure.csproj", "{5712F215-DFAE-4658-A109-2853690F7238}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistemarcas.Application", "Sistemarcas.Application\Sistemarcas.Application.csproj", "{0EFB6883-66F3-431B-B025-31EA7E1DD8B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sistemarcas.Projetos", "Sistemarcas.Projetos", "{C17BFE90-54C0-466B-92B4-FAC379789DA4}"
+	ProjectSection(SolutionItems) = preProject
+		Projeto Devs Prosoft.docx = Projeto Devs Prosoft.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F60DC6A9-1937-427C-A8EB-ED30FC14C4BA}"
+	ProjectSection(SolutionItems) = preProject
+		Descrição Projeto.txt = Descrição Projeto.txt
+		Sistemarcas.Api\Task.txt = Sistemarcas.Api\Task.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8832746-5281-49F6-8019-5828A2DDA2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8832746-5281-49F6-8019-5828A2DDA2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8832746-5281-49F6-8019-5828A2DDA2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8832746-5281-49F6-8019-5828A2DDA2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4E3352-7C8F-44B0-958C-03792932CD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4E3352-7C8F-44B0-958C-03792932CD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4E3352-7C8F-44B0-958C-03792932CD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4E3352-7C8F-44B0-958C-03792932CD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5712F215-DFAE-4658-A109-2853690F7238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5712F215-DFAE-4658-A109-2853690F7238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5712F215-DFAE-4658-A109-2853690F7238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5712F215-DFAE-4658-A109-2853690F7238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFB6883-66F3-431B-B025-31EA7E1DD8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFB6883-66F3-431B-B025-31EA7E1DD8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFB6883-66F3-431B-B025-31EA7E1DD8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFB6883-66F3-431B-B025-31EA7E1DD8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E697537F-2327-4805-B040-B30096D729B0}
+	EndGlobalSection
+EndGlobal

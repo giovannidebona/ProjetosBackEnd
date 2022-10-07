@@ -1,0 +1,30 @@
+﻿Há uma API que fornece dados sobre os DEVs do time, nela é possível obter a lista completa ou
+mesmo por id.
+Essa lista eventualmente pode ser atualizada com novos DEVs, alterações em algum pré
+existente ou até mesmo a exclusão de algum deles.
+Requisitos
+ Manter sua solução com dados sincronizados com a origem dos dados, logo, dados
+atualizados devem ser replicados em ambos os lados
+ Obter todos os DEVs (OK)
+ Há um problema no cadastro de DEVs atual, os e-mails deveriam ter domínio 
+'@prosoft.com.br', realize essa correção (OK)
+ Atualizar dado de DEV específico (OK)
+ Inserir um novo DEV (OK)
+Extras que podem ser avaliados
+ Frontend para as funcionalidades
+ Logs das sincronias e ações do “crud” (DESENVOLVENDO)
+ Utilização de tecnologias e conceitos mencionados no final deste documento
+ Modelo de base de dados ou outra documentação que detalhe o formato de
+persistência dos dados
+ Diagrama ilustrando a solução e como ocorrem eventuais comunicações
+Endpoints a serem utilizados
+GET:https://61a170e06c3b400017e69d00.mockapi.io/DevTest/Dev
+GET:https://61a170e06c3b400017e69d00.mockapi.io/DevTest/Dev/id
+POST:https://61a170e06c3b400017e69d00.mockapi.io/DevTest/Dev
+PUT:https://61a170e06c3b400017e69d00.mockapi.io/DevTest/Dev/id
+
+
+-Mandatório: Que seja projeto de backend Restfull Api em C# com acesso a dados no SQL SERVER distribuídos em camadas, com injeção de dependência. (OK)
+-Desejável: com algum padrão conhecido de mercado, preferencialmente CQRS (DESENVOLVENDO) e uso do MongoDB (OK)
+-Diferencial: uso de filas preferencialmente AzureQueues e Service Workers (Azure functions ou Azure WebJobs)
+-Altamente diferencial: Criação de Índices e sua devida utilização nas consultas. (Criados indices nas colunas, nome, email e login)

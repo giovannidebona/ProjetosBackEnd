@@ -1,5 +1,5 @@
 # Introducão
-Projeto pessoal iniciado para uma empresa de registro de marcas com estrutura pronta aproveitável para outros projetos.
+Projeto pessoal iniciado para uma empresa (Sistemarcas) de registro de marcas com estrutura pronta aproveitável para outros projetos.
 
 # Detalhes gerais
 Este projeto está sendo escrito todo em inglês (com exceção a escrita de tabelas e campos que já eram em portugues) 

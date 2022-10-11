@@ -1,4 +1,4 @@
-# Introducão
+# Introdução
 Projeto pessoal iniciado para uma empresa (Sistemarcas) de registro de marcas com estrutura pronta aproveitável para outros projetos.
 
 # Detalhes gerais
